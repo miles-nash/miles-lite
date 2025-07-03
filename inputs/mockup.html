@@ -1,0 +1,74 @@
+npm run dev<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miles Nash — Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+      .ascii-blink::after {
+        content: '_';
+        animation: blink 1s steps(1) infinite;
+      }
+
+      @keyframes blink {
+        50% { opacity: 0; }
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-serif">
+    <div class="min-h-screen flex">
+      <!-- Sidebar -->
+      <aside class="w-52 p-6 hidden md:block">
+        <h1 class="text-2xl font-bold mb-4">Miles Nash</h1>
+        <nav class="space-y-2">
+          <a href="/history" class="block hover:text-blue-500">/history</a>
+          <a href="/projects" class="block hover:text-blue-500">/projects</a>
+          <a href="/library" class="block hover:text-blue-500">/library</a>
+          <a href="/philosophy" class="block hover:text-blue-500">/philosophy</a>
+          <a href="/quotes" class="block hover:text-blue-500">/quotes</a>
+        </nav>
+      </aside>
+
+      <!-- Main content -->
+      <main class="flex-1 p-6 flex flex-col justify-center items-start max-w-3xl mx-auto">
+        <div class="mb-8">
+          <pre class="font-mono text-sm text-gray-700">
+         &&& &&  & &&
+     && &\/&\|& ()|/ @, &&
+     &\/(/&/&||/& /_/)_&/_&
+  &() &\/&|()|/&\/ '%" & ()
+ &_\_&&_\ |& |&&/&__%_/_& &&
+&&   && & &| &| /& & % ()& /&&
+ ()&_---()&\&\|&&-&&--%---()~
+     &&     \|||
+             |||
+             |||
+             |||
+       , -=-~  .-^- _
+          </pre>
+
+          <pre class="font-mono text-sm text-gray-700 mt-4">
+┌──────────────────────────────────────────────┐
+│                                              │
+│  "The faster ideas leave your head,          │
+│   the faster they evolve."                   │
+│                                              │
+└──────────────────────────────────────────────┘
+          </pre>
+        </div>
+
+        <h2 class="text-4xl font-bold leading-tight mb-4">Engineer, explorer, builder of systems.</h2>
+        <p class="text-lg text-gray-700 max-w-prose mb-6">
+          I'm a technical program manager and hardware enthusiast focused on building tools, experiences, and 
+          environments that bridge the physical and digital. This site is my digital studio — part archive, 
+          part playground, and a window into what I'm thinking, building, and reading.
+        </p>
+
+        <div class="text-sm font-mono text-gray-600">
+          <span class="ascii-blink">$</span> cd /projects
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

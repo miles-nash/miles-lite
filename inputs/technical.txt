@@ -1,0 +1,90 @@
+
+🧱 Site Technical Overview (Philosophy Page + Site)
+
+🧭 Summary
+This is a Next.js + Tailwind CSS static site focused on long-form content, minimalist layout, and high-typographic fidelity. Pages are simple .tsx files with semantic HTML, using Tailwind utility classes for styling. Fonts are installed via @fontsource.
+
+🛠️ Stack Details
+
+1. Framework: Next.js
+- App router (or Pages router — in this case using pages/)
+- Fast static generation (good for long-form/archival content)
+- Built-in routing based on file structure
+
+2. Styling: Tailwind CSS
+- Utility-first, responsive, and minimal
+- Custom font setup via Tailwind theme.extend.fontFamily
+
+3. Fonts: @fontsource
+- Fonts loaded via npm, not external CDNs
+- Fonts used:
+  - Source Serif 4 (body)
+  - Inter (UI/headings)
+  - IBM Plex Mono (code/meta)
+
+4. File Structure
+
+/pages
+  index.tsx         # Landing page
+  philosophy.tsx    # Philosophy page
+  projects.tsx      # (planned)
+  history.tsx       # (planned)
+  library.tsx       # (planned)
+
+/styles
+  globals.css       # Tailwind + base layer
+
+tailwind.config.js  # Typography + fonts
+
+🧪 Exact Setup Instructions for Another Developer
+
+1. Clone or Initialize Project
+npx create-next-app personal-site --typescript
+cd personal-site
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+2. Configure Tailwind
+Edit tailwind.config.js:
+
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}"
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        serif: ['"Source Serif 4"', 'serif'],
+        sans: ['Inter', 'sans-serif'],
+        mono: ['"IBM Plex Mono"', 'monospace'],
+      },
+    },
+  },
+  plugins: [],
+}
+
+3. Install Fonts
+npm install @fontsource/source-serif-4 @fontsource/inter @fontsource/ibm-plex-mono
+
+In _app.tsx or the top of each page file:
+
+import "@fontsource/source-serif-4/400.css";
+import "@fontsource/source-serif-4/600.css";
+import "@fontsource/inter/400.css";
+import "@fontsource/inter/600.css";
+import "@fontsource/ibm-plex-mono/400.css";
+
+4. Set Up CSS
+Edit styles/globals.css:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+5. Create Pages
+Drop in the content from index.tsx and philosophy.tsx exactly as written. They're self-contained — no external components or hooks required.
+
+✅ Final Notes
+- No CMS or backend needed — it’s all static and deployable via Vercel, Netlify, etc.
+- The current typography and spacing mimic academic design systems.
+- Future expansion can include MDX integration, dark mode, or layout components.

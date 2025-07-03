@@ -1,0 +1,17 @@
+**Miles’s public Hackster.io projects**
+
+* Electronic Lifeguard Arm Band — [https://www.hackster.io/milesnash\_/electronic-lifeguard-arm-band-4d5035](https://www.hackster.io/milesnash_/electronic-lifeguard-arm-band-4d5035) ([hackster.io][1])
+* 3 D Printer Fire Safety — [https://www.hackster.io/milesnash\_/3d-printer-fire-safety-448acf](https://www.hackster.io/milesnash_/3d-printer-fire-safety-448acf) ([hackster.io][2])
+* 3 D Printer Monitoring with Alexa and Arduino — [https://www.hackster.io/milesnash\_/3d-printer-monitoring-with-alexa-and-arduino-024292](https://www.hackster.io/milesnash_/3d-printer-monitoring-with-alexa-and-arduino-024292) ([hackster.io][3])
+* Multi-functional Display for Weather, Time & Date — [https://www.hackster.io/milesnash\_/multi-functional-display-for-weather-time-and-date-0827ca](https://www.hackster.io/milesnash_/multi-functional-display-for-weather-time-and-date-0827ca) ([hackster.io][4])
+* New Year’s Countdown — [https://www.hackster.io/milesnash\_/new-year-s-countdown-aeefff](https://www.hackster.io/milesnash_/new-year-s-countdown-aeefff) ([hackster.io][5])
+* Autonomous Line-Following Hovercraft — [https://www.hackster.io/milesnash\_/autonomous-line-following-hovercraft-61db44](https://www.hackster.io/milesnash_/autonomous-line-following-hovercraft-61db44) ([hackster.io][6])
+
+*(The profile indicates seven projects, but only these six are currently reachable without signing in—one may be private or unpublished.)*
+
+[1]: https://www.hackster.io/milesnash_/electronic-lifeguard-arm-band-4d5035?utm_source=chatgpt.com "Electronic Lifeguard Arm Band - Hackster.io"
+[2]: https://www.hackster.io/milesnash_/3d-printer-fire-safety-448acf?utm_source=chatgpt.com "3D Printer Fire Safety - Hackster.io"
+[3]: https://www.hackster.io/milesnash_/3d-printer-monitoring-with-alexa-and-arduino-024292?utm_source=chatgpt.com "3D Printer Monitoring with Alexa and Arduino - Hackster.io"
+[4]: https://www.hackster.io/milesnash_/multi-functional-display-for-weather-time-and-date-0827ca?utm_source=chatgpt.com "Multi functional display for weather, time, and date - Hackster.io"
+[5]: https://www.hackster.io/milesnash_/new-year-s-countdown-aeefff?utm_source=chatgpt.com "New Year's Countdown - Hackster.io"
+[6]: https://www.hackster.io/milesnash_/autonomous-line-following-hovercraft-61db44?utm_source=chatgpt.com "Autonomous Line Following Hovercraft - Hackster.io"
