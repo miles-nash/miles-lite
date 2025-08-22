@@ -1,48 +1,48 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/voice-car",
-      "destination": "/voice-car.html"
+      "src": "/voice-car",
+      "dest": "/voice-car.html"
     },
     {
-      "source": "/cs61classify",
-      "destination": "/cs61classify.html"
+      "src": "/cs61classify",
+      "dest": "/cs61classify.html"
     },
     {
-      "source": "/iot-fan",
-      "destination": "/iot-fan.html"
+      "src": "/iot-fan",
+      "dest": "/iot-fan.html"
     },
     {
-      "source": "/os",
-      "destination": "/os.html"
+      "src": "/os",
+      "dest": "/os.html"
     },
     {
-      "source": "/timeline",
-      "destination": "/timeline.html"
+      "src": "/timeline",
+      "dest": "/timeline.html"
     },
     {
-      "source": "/resume",
-      "destination": "/resume.html"
+      "src": "/resume",
+      "dest": "/resume.html"
     },
     {
-      "source": "/model-y",
-      "destination": "/model-y.html"
+      "src": "/model-y",
+      "dest": "/model-y.html"
     },
     {
-      "source": "/nasa",
-      "destination": "/nasa.html"
+      "src": "/nasa",
+      "dest": "/nasa.html"
     },
     {
-      "source": "/peoples-prompt",
-      "destination": "/peoples-prompt.html"
+      "src": "/peoples-prompt",
+      "dest": "/peoples-prompt.html"
     },
     {
-      "source": "/risc-v",
-      "destination": "/risc-v.html"
+      "src": "/risc-v",
+      "dest": "/risc-v.html"
     },
     {
-      "source": "/satellite",
-      "destination": "/satellite.html"
+      "src": "/satellite",
+      "dest": "/satellite.html"
     }
   ],
   "cleanUrls": true,
