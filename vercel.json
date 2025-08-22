@@ -1,0 +1,50 @@
+{
+  "rewrites": [
+    {
+      "source": "/voice-car",
+      "destination": "/voice-car.html"
+    },
+    {
+      "source": "/cs61classify",
+      "destination": "/cs61classify.html"
+    },
+    {
+      "source": "/iot-fan",
+      "destination": "/iot-fan.html"
+    },
+    {
+      "source": "/os",
+      "destination": "/os.html"
+    },
+    {
+      "source": "/timeline",
+      "destination": "/timeline.html"
+    },
+    {
+      "source": "/resume",
+      "destination": "/resume.html"
+    },
+    {
+      "source": "/model-y",
+      "destination": "/model-y.html"
+    },
+    {
+      "source": "/nasa",
+      "destination": "/nasa.html"
+    },
+    {
+      "source": "/peoples-prompt",
+      "destination": "/peoples-prompt.html"
+    },
+    {
+      "source": "/risc-v",
+      "destination": "/risc-v.html"
+    },
+    {
+      "source": "/satellite",
+      "destination": "/satellite.html"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
