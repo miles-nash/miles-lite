@@ -334,3 +334,48 @@ ul, ol {
     justify-content: center;
   }
 } 
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 15px;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+    
+    .header .name {
+        font-size: 16px;
+    }
+    
+    .header .tagline {
+        font-size: 14px;
+    }
+    
+    .header .telemetry .time-display {
+        font-size: 0.9em;
+    }
+    
+    .about-section {
+        flex-direction: column;
+        gap: 8px; /* tighter spacing so photo sits close to About Me */
+        align-items: flex-start;
+        text-align: left;
+    }
+    
+    .about-photo {
+        margin-top: 0;
+        margin-bottom: 0; /* remove extra space under photo */
+        order: -1; /* Photo appears first on mobile */
+        align-self: flex-start;
+    }
+    
+    .about-content {
+        text-align: left;
+    }
+    
+    .timeline-writing-section {
+        grid-template-columns: 1fr;
+        gap: 2em;
+    }
+} 
