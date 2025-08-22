@@ -7,197 +7,238 @@
     <meta name="robots" content="index, follow">
     <title>Miles Nash - Electrical Engineering & Computer Science Portfolio | UC Berkeley Student</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
-    <table width="100%" bgcolor="#faf8f6">
-        <tr>
-            <td width="25%"></td>
-            <td width="50%" align="left">
-                <main>
-                    <header>
-                        <p><font face="serif" size="6">Miles Nash</font></p>
-                        <img src="/photo2.jpg" alt="Miles Nash" width="300" height="200">
-                    </header>
+    <!-- Apollo-style header -->
+    <div class="header">
+        <div style="display:flex; gap:10px; align-items:center">
+            <strong class="name">MILES NASH</strong>
+            <span class="tagline">Hardware · Software · Systems</span>
+        </div>
+        <div class="telemetry">
+            <div class="time-display">
+                <span class="label">UTC</span>
+                <span class="value" id="time-display"></span>
+            </div>
+        </div>
+    </div>
 
-                    <article>
-                        <section>
-                            <p><font face="serif" size="5">About Me</font></p>
-                            <p><font face="serif" size="3">Currently studying Electrical Engineering and Computer Science at UC Berkeley<br>Looking to build cool things with cool people.</font></p>
-                            <p><font face="serif" size="3">
-                                <a href="https://x.com/milesnash_" target="_blank">X (Twitter)</a> | 
-                                <a href="https://youtube.com/@milesnash8324?si=XrXoDlcff2QAsZHW" target="_blank">YouTube</a> | 
-                                <a href="Resume.pdf" target="_blank">Resume</a> | 
-                                <a href="https://www.linkedin.com/in/miles-nash" target="_blank">LinkedIn</a> | 
-                                <a href="https://calendly.com/miles_nash/30min" target="_blank">Book a Call</a>
-                            </font></p>
-                        </section>
+    <div class="main-container">
+        <div class="content">
+            <article>
+                <section class="about-section">
+                    <img src="/photo2.jpg" alt="Miles Nash" class="about-photo">
+                    <div class="about-content">
+                        <h2>About Me</h2>
+                        <p>Currently studying Electrical Engineering and Computer Science at UC Berkeley<br>Looking to build cool things with cool people.</p>
+                        <p>
+                            <a href="https://x.com/milesnash_" target="_blank">X (Twitter)</a> | 
+                            <a href="https://youtube.com/@milesnash8324?si=XrXoDlcff2QAsZHW" target="_blank">YouTube</a> | 
+                            <a href="Resume.pdf" target="_blank">Resume</a> | 
+                            <a href="https://www.linkedin.com/in/miles-nash" target="_blank">LinkedIn</a> | 
+                            <a href="https://calendly.com/miles_nash/30min" target="_blank">Book a Call</a>
+                        </p>
+                    </div>
+                </section>
 
-                        <section>
-                            <p><font face="serif" size="5">Career Timeline</font></p>
-                            <font face="serif" size="3">Founded High-School Robotics Club</font><br>
-                            <font face="serif" size="3">Lockheed Martin: Electrical Engineering</font><br>
-                            <font face="serif" size="3">Lockheed Martin: Manufacturing</font><br>
-                            <font face="serif" size="3">Lockheed Martin: Guidance Software</font><br>
-                            <font face="serif" size="3">Hypernova Space: Engine Design (part time)</font><br>
-                            <font face="serif" size="3">Tesla: Technical Program Management (Wireless Hardware)</font><br>
-                            <font face="serif" size="3">Microsoft: Technical Program Management (Datacenter Security)</font>
-                            
-                            <p><font face="serif" size="5">Projects</font></p>
-                            <div class="projects-gallery">
-                                <div class="project-card">
-                                    <a href="model-y.html" class="project-link">
-                                        <img src="/modelY.jpg" alt="Tesla Model Y Wireless Entry System" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">Tesla Model Y Wireless Entry System</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="https://shop.tesla.com/product/cybertruck-metal-key-card" target="_blank" class="project-link">
-                                        <img src="/ctcard.avif" alt="Tesla Cybertruck Metal Key Card" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">Tesla Cybertruck Metal Key Card</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="risc-v.html" class="project-link">
-                                        <img src="/riscv.png" alt="RISC-V CPU with Cache" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">RISC-V CPU with Cache (ASIC)</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="https://sites.google.com/berkeley.edu/hope-spring-23-showcase/tunable-light-organ" target="_blank" class="project-link">
-                                        <img src="/lightorganpcb.png" alt="Audio Visualizer PCB" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">Audio Visualizer PCB</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="peoples-prompt.html" class="project-link">
-                                        <img src="/peoplesprompt.png" alt="People's Prompt AI Zine" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">People's Prompt: AI-powered Web Zine</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="iot-fan.html" class="project-link">
-                                        <img src="/smartfan.png" alt="Thermal Imaging Smart Fan" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">Thermal Imaging Smart Fan</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="cs61classify.html" class="project-link">
-                                        <img src="/mnist.png" alt="RISC-V Neural Network" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">RISC-V Neural Network Classifier</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="voice-car.html" class="project-link">
-                                        <img src="/voicecontrolledcar.png" alt="Voice Controlled Car" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">Voice Controlled Car</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="satellite.html" class="project-link">
-                                        <img src="/lm400.jpg" alt="Satellite Attitude Control" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">Satellite Attitude Control System</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="nasa.html" class="project-link">
-                                        <img src="/spacebeans.png" alt="NASA Mars Trash Ejection" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">NASA Mars Trash Ejection System</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="https://www.hackster.io/milesnash_/electronic-lifeguard-arm-band-4d5035" target="_blank" class="project-link">
-                                        <img src="/lifeguard.avif" alt="Lifeguard Safety Monitor" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">Lifeguard Safety Monitor</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="https://www.hackster.io/milesnash_/3d-printer-fire-safety-448acf" target="_blank" class="project-link">
-                                        <img src="/firesafety.avif" alt="3D Printer Fire Detection" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">3D Printer Fire Detection</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="https://www.hackster.io/milesnash_/3d-printer-monitoring-with-alexa-and-arduino-024292" target="_blank" class="project-link">
-                                        <img src="/alexaprinter.avif" alt="Alexa 3D Printer Monitor" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">Alexa-Controlled 3D Printer Monitor</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="https://www.hackster.io/milesnash_/new-year-s-countdown-aeefff" target="_blank" class="project-link">
-                                        <img src="/countdown.png" alt="LED Countdown Clock" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">LED Countdown Clock</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="https://www.hackster.io/milesnash_/autonomous-line-following-hovercraft-61db44" target="_blank" class="project-link">
-                                        <img src="/hovercraft.avif" alt="Autonomous Hovercraft" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">Autonomous Hovercraft</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="project-card">
-                                    <a href="https://www.hackster.io/milesnash_/multi-functional-display-for-weather-time-and-date-0827ca" target="_blank" class="project-link">
-                                        <img src="/weatherbox.avif" alt="IoT Weather Station" class="project-image">
-                                        <div class="project-content">
-                                            <h3 class="project-title">IoT Weather Station Display</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </section>
+                <section class="timeline-writing-section">
+                    <div class="timeline-section">
+                        <h2>Career Timeline</h2>
+                        <p>Founded High-School Robotics Club</p>
+                        <p>Lockheed Martin: Electrical Engineering</p>
+                        <p>Lockheed Martin: Manufacturing</p>
+                        <p>Lockheed Martin: Guidance Software</p>
+                        <p>Hypernova Space: Engine Design (part time)</p>
+                        <p>Tesla: Technical Program Management</p>
+                        <p>Microsoft: Technical Program Management</p>
+                    </div>
+                    
+                    <div class="writing-section">
+                        <h2>Recent Inputs</h2>
+                        <div class="writing-item">
+                            <h3>Brent Victor, Engineering by Principle</h3>
+                        </div>
+                        <div class="writing-item">
+                            <h3>Stranger in a Strange Land</h3>
+                        </div>
+                        <div class="writing-item">
+                            <h3>Southpark</h3>
+                        </div>
+                    </div>
+                </section>
 
+                <section>
+                    <h2>Projects</h2>
+                    <div class="projects-gallery">
+                        <div class="project-card">
+                            <a href="model-y.html" class="project-link">
+                                <img src="/modelY.jpg" alt="Tesla Model Y Wireless Entry System" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">Tesla Model Y Wireless Entry System</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="https://shop.tesla.com/product/cybertruck-metal-key-card" target="_blank" class="project-link">
+                                <img src="/ctcard.avif" alt="Tesla Cybertruck Metal Key Card" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">Tesla Cybertruck Metal Key Card</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="risc-v.html" class="project-link">
+                                <img src="/riscv.png" alt="RISC-V CPU with Cache" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">RISC-V CPU with Cache (ASIC)</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="https://sites.google.com/berkeley.edu/hope-spring-23-showcase/tunable-light-organ" target="_blank" class="project-link">
+                                <img src="/lightorganpcb.png" alt="Audio Visualizer PCB" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">Audio Visualizer PCB</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="peoples-prompt.html" class="project-link">
+                                <img src="/peoplesprompt.png" alt="People's Prompt AI Zine" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">People's Prompt: AI-powered Web Zine</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="iot-fan.html" class="project-link">
+                                <img src="/smartfan.png" alt="Thermal Imaging Smart Fan" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">Thermal Imaging Smart Fan</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="cs61classify.html" class="project-link">
+                                <img src="/mnist.png" alt="RISC-V Neural Network" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">RISC-V Neural Network Classifier</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="voice-car.html" class="project-link">
+                                <img src="/voicecontrolledcar.png" alt="Voice Controlled Car" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">Voice Controlled Car</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="satellite.html" class="project-link">
+                                <img src="/lm400.jpg" alt="Satellite Attitude Control" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">Satellite Attitude Control System</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="nasa.html" class="project-link">
+                                <img src="/spacebeans.png" alt="NASA Mars Trash Ejection" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">NASA Mars Trash Ejection System</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="https://www.hackster.io/milesnash_/electronic-lifeguard-arm-band-4d5035" target="_blank" class="project-link">
+                                <img src="/lifeguard.avif" alt="Lifeguard Safety Monitor" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">Lifeguard Safety Monitor</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="https://www.hackster.io/milesnash_/3d-printer-fire-safety-448acf" target="_blank" class="project-link">
+                                <img src="/firesafety.avif" alt="3D Printer Fire Detection" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">3D Printer Fire Detection</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="https://www.hackster.io/milesnash_/3d-printer-monitoring-with-alexa-and-arduino-024292" target="_blank" class="project-link">
+                                <img src="/alexaprinter.avif" alt="Alexa 3D Printer Monitor" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">Alexa-Controlled 3D Printer Monitor</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="https://www.hackster.io/milesnash_/new-year-s-countdown-aeefff" target="_blank" class="project-link">
+                                <img src="/countdown.png" alt="LED Countdown Clock" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">LED Countdown Clock</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="https://www.hackster.io/milesnash_/autonomous-line-following-hovercraft-61db44" target="_blank" class="project-link">
+                                <img src="/hovercraft.avif" alt="Autonomous Hovercraft" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">Autonomous Hovercraft</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="https://www.hackster.io/milesnash_/multi-functional-display-for-weather-time-and-date-0827ca" target="_blank" class="project-link">
+                                <img src="/weatherbox.avif" alt="IoT Weather Station" class="project-image">
+                                <div class="project-content">
+                                    <h3 class="project-title">IoT Weather Station Display</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </div>
 
-                    </article>
-                </main>
-            </td>
-            <td width="25%"></td>
-        </tr>
-    </table>
+    <script>
+        // Update UTC time display every second
+        function updateTime() {
+            const now = new Date();
+            const utcTime = new Date(now.getTime() + (now.getTimezoneOffset() * 60000));
+            const timeString = utcTime.toLocaleTimeString('en-US', { 
+                hour12: false,
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            });
+            document.getElementById('time-display').textContent = timeString;
+        }
+        
+        // Update immediately and then every second
+        updateTime();
+        setInterval(updateTime, 1000);
+    </script>
 </body>
 </html> 
