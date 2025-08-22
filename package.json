@@ -1,0 +1,27 @@
+{
+  "name": "miles-lite",
+  "version": "1.0.0",
+  "description": "A clean, responsive HTML website designed to present text content in a centered, readable format that works well across all platforms and is optimized for AI scraping.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open --port 5173 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --open --port 5173 --strictPort"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miles-nash/miles-lite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/miles-nash/miles-lite/issues"
+  },
+  "homepage": "https://github.com/miles-nash/miles-lite#readme",
+  "devDependencies": {
+    "vite": "^7.1.3"
+  }
+}
