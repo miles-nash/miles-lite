@@ -1,0 +1,18 @@
+{
+  "name": "Miles Nash - Hardware, Software, Systems Engineer",
+  "short_name": "Miles Nash",
+  "description": "Portfolio featuring wireless hardware, RISC-V CPU design, IoT projects, and aerospace engineering work.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
+
+

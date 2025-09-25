@@ -241,21 +241,21 @@ ul, ol {
   margin-bottom: 2.5em;
 }
 
-.timeline-section, .writing-section {
+.timeline-section, .writing-section, .learning-focus-section {
   width: 100%;
 }
 
-.timeline-section h2, .writing-section h2 {
+.timeline-section h2, .writing-section h2, .learning-focus-section h2 {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-.timeline-section p, .writing-item {
+.timeline-section p, .writing-item, .learning-focus-section p {
   margin: 0 0 0.75rem 0;
   line-height: 1.4;
 }
 
-.timeline-section p:last-child, .writing-item:last-child {
+.timeline-section p:last-child, .writing-item:last-child, .learning-focus-section p:last-child {
   margin-bottom: 0;
 }
 
@@ -272,6 +272,16 @@ ul, ol {
   font-family: "IBM Plex Mono", ui-monospace, monospace;
   display: block;
   margin-top: 0.25rem;
+}
+
+.learning-focus-section p {
+  margin: 0 0 0.75rem 0;
+  line-height: 1.4;
+}
+
+.learning-focus-section strong {
+  color: #333;
+  font-weight: 600;
 }
 
 /* Responsive adjustments */
