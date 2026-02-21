@@ -6,3 +6,4 @@ Lockheed Martin: Guidance Software
 Hypernova Space: Engine Design (part time)
 Tesla: Technical Program Management (Wireless)
 Microsoft: Technical Program Management (Cloud)
+Matic Robotics: Firmware Systems Engineer
